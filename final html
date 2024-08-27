@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>To Do List By Tann</title>
+</head>
+<body>
+    <section class="todo">
+        <div class="head">
+            <div class="welcome">
+                <div class="content">
+                    <h1>Hello Tann</h1>
+                    <p class="counter-container">You have <span id="todoCount">0</span> total tasks to do!</p>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="input">
+                <input type="text" class="input-field" id="todoInput" placeholder="Add new task..">    
+                <button id="addButton" class="btn">+</button>
+            </div>
+            <ul id="todoList" class="scroll"></ul>
+            <div>
+                <hr class="counter" />
+                <div class="counter-container">
+                    <button id="deleteButton">Delete All</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
